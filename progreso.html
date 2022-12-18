@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='STYLES/main.css'>
+</head>
+
+<body>
+    <div class="contenendor">
+        <div class="menu">
+            <div class="title">
+                <p>Python Support Module</p>
+            </div>
+            <div class="contenedorB">
+                <button onclick="window.location.href='listaTemas.html';" class="btn-submt">
+                    <p>Contenido</p>
+                </button>
+                <button onclick="window.location.href='progreso.html';" class="btn-submt">
+                    <p>Progreso</p>
+                </button>
+                <button onclick="window.location.href='python.html';" class="btn-submt">
+                    <p>Mas sobre python</p>
+                </button>
+            </div>
+            <div class="logout">
+                <button onclick="window.location.href='login.html';" class="btn-submt">
+                    <p>Cerrar sesión</p>
+                </button>
+            </div>
+        </div>
+        <div class="separador"></div>
+        <div class="contenido">
+            <div class="cont-progress">
+                <h2>Progreso</h2>
+                <p>En este apartado visualizaras una barra de progreso, segun el contenido visualizado podras avanzar.</p>
+                <div class="barra-progreso" id="barra-progreso">
+                </div>
+                <div class="cont-progress-tem">
+                    <div>
+                        <h2>Tema 1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Repellendus eius sint quae velit magni est quibusdam soluta saepe quidem,
+                            fugiat totam iste, harum nihil hic consequuntur consequatur eos provident nam.</p>
+                    </div>
+                    <div>
+                        <h2>Tema 2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Repellendus eius sint quae velit magni est quibusdam soluta saepe quidem,
+                            fugiat totam iste, harum nihil hic consequuntur consequatur eos provident nam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="JS/progressBar.js" type="module"></script>
+</body>
+
+</html>
