@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #4d4e53;
+}
+
+body {
+    background-image: url("../SOURCES/fondo_index.jpg");
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+}
+
+div.iniSes {
+    padding-bottom: 30px;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 8%;
+    margin-left: 20%;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    border: 2px solid black;
+}
+
+div#Contenedor_form {
+    display: flex;
+    height: 100%;
+}
+
+.partForm {
+    padding: 0px 30px 0px 30px;
+    margin-top: 50px;
+    width: 50%;
+}
+
+a {
+    color: rgb(41, 107, 239);
+    transition-duration: .6s;
+    text-decoration: none;
+}
+
+#registro a {
+    margin-left: 5px;
+}
+
+a:hover {
+    transition-duration: .6s;
+    color: rgb(25, 76, 177);
+    text-decoration: underline;
+}
+
+.partForm h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.partForm h3 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.linea {
+    width: 1%;
+    align-content: center;
+}
+
+div.linea p {
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 30%;
+    background-color: rgb(83, 54, 103);
+    height: 80%;
+    width: 3px;
+}
+
+#registro {
+    display: flex;
+}
+
+#registro p,a {
+    margin: 10px 0px 10px 0px;
+}
+
+
+form p {
+    margin-bottom: 10px;
+}
+
+form #apass {
+    margin-top: 0px;
+}
+
+
+.inpt, #submit {
+    transition-duration: .6s;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.inpt {
+    margin-bottom: 20px;
+    padding: 0 1% 0 2%;
+    width: 97%;
+    font-size: 80%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgb(135, 207, 255);
+}
+
+.inpt:hover { 
+    transition-duration: .6s;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    color: black;
+}
+
+.inpt:focus {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    color: black;
+}
+
+form #submit {
+    transition-duration: 120ms;
+    background-color: rgb(246, 255, 71);
+    cursor:pointer;
+    font-size: large;
+    color: black;
+    margin-top: 20px;
+    width: 100%;
+}
+
+form #submit:hover {
+    transition-duration: 120ms;
+    height: 42px;
+    font-size: 110%;
+    color:rgb(28, 26, 34);
+    background-color: rgb(255, 255, 255);
+}
+
+#enunc {
+    text-align: center;
+    margin: 40px 20px 20px 20px;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+    background-color:rgba(53, 53, 53, 0.355);
+}
