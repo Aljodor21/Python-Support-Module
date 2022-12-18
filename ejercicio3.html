@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./STYLES/main.css'>
+</head>
+
+<body>
+    <div class="contenendor">
+        <div class="menu">
+            <div class="title">
+                <p>Python Support Module</p>
+            </div>
+            <div class="contenedorB">
+                <button onclick="window.location.href='listaTemas.html';" class="btn-submt">
+                    <p>Contenido</p>
+                </button>
+                <button onclick="window.location.href='progreso.html';" class="btn-submt">
+                    <p>Progreso</p>
+                </button>
+                <button onclick="window.location.href='python.html';" class="btn-submt">
+                    <p>Mas sobre python</p>
+                </button>
+            </div>
+            <div class="logout">
+                <button onclick="window.location.href='login.html';" class="btn-submt">
+                    <p>Cerrar sesión</p>
+                </button>
+            </div>
+        </div>
+        <div class="separador"></div>
+        <div class="contenido">
+            <div class="cont-ejerc">
+                <h2>Debes elegir las opciones correctas para continuar.</h2>
+                <form id="quiz-container" data-id="quiz3">
+                    
+                    <div class="fragm">
+                        <p> - La función principal de la concatenación es sumar dos variables ¿La anterior afirmación es?</p>
+                        <select class="slc-resp" size="2" id="resp1">
+                            <option value="verdadero">verdadero</option>
+                            <option value="falso">falso</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> -   <code>a,b = “Hola”,” Mundo”</code> 
+                                <br>
+                                <code>print(a+b) </code>
+                                <br>
+                                ¿El resultado en pantalla será?</p>
+                        <select class="slc-resp" size="3" id="resp2">
+                            <option value="HolaMundo">HolaMundo</option>
+                            <option value="Hola mundo">Hola mundo</option>
+                            <option value="Hola Mundo">Hola Mundo</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> -   <code>a,b = “Hola”,3</code> 
+                                <br>
+                                <code>print(a+b) </code>
+                                <br>
+                                ¿El resultado en pantalla será?</p>
+                        <select class="slc-resp" size="3" id="resp3">
+                            <option value="Hola 3">Hola 3</option>
+                            <option value="Error">Error</option>
+                            <option value="Hola3">Hola3</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> -   <code>a,b = “3”,'Mundo'</code> 
+                                <br>
+                                <code>print(a+b) </code>
+                                <br>
+                                ¿El resultado en pantalla será?</p>
+                        <select class="slc-resp" size="3" id="resp4">
+                            <option value="3Mundo">3Mundo</option>
+                            <option value="Error">Error</option>
+                            <option value="3 Hola">3 Hola</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> - ¿La concatenación nos permite?</p>
+                        <select class="slc-resp" size="3" id="resp5">
+                            <option value="Añadir una valor a una variable">Añadir una valor a una variable</option>
+                            <option value="Sumar dos variables tipo texto'">Sumar dos variables tipo texto</option>
+                            <option value="Fusionar o combinar strings">Fusionar o combinar strings</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <button id="resp" class="submit" type="submit">Enviar</button>
+                    </div>
+                    
+                </form>
+                
+            </div>
+            
+        </div>
+        <script src="JS/resp.js" type="module"></script>
+        
+</body>
+
+</html>

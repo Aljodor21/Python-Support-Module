@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./STYLES/main.css'>
+</head>
+
+<body>
+    <div class="contenendor">
+        <div class="menu">
+            <div class="title">
+                <p>Python Support Module</p>
+            </div>
+            <div class="contenedorB">
+                <button onclick="window.location.href='listaTemas.html';" class="btn-submt">
+                    <p>Contenido</p>
+                </button>
+                <button onclick="window.location.href='progreso.html';" class="btn-submt">
+                    <p>Progreso</p>
+                </button>
+                <button onclick="window.location.href='python.html';" class="btn-submt">
+                    <p>Mas sobre python</p>
+                </button>
+            </div>
+            <div class="logout">
+                <button onclick="window.location.href='login.html';" class="btn-submt">
+                    <p>Cerrar sesión</p>
+                </button>
+            </div>
+        </div>
+        <div class="separador"></div>
+        <div class="contenido">
+            <div class="cont-ejerc">
+                <h2>Debes elegir las opciones correctas para continuar.</h2>
+                <form id="quiz-container" data-id="quiz8">
+                    
+                    <div class="fragm">
+                        <p> - ¿Un control de flujo elif o else se puede ejecutar sin tener un if previo?</p>
+                        <select class="slc-resp" size="2" id="resp1">
+                            <option value="verdadero">verdadero</option>
+                            <option value="falso">falso</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> - ¿El control de flujo elif se ejecuta en caso de que no sea verdadera mi condición?</p>
+                        <select class="slc-resp" size="3" id="resp2">
+                            <option value="Else">Else</option>
+                            <option value="Integer">Integer</option>
+                            <option value="If">Integer</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> -   <code>a=2</code> 
+                                <br>
+                                <code> if a<5:</code>
+                                <br>
+                                <code> print('a es menor')</code>
+                                <br>
+                                <code> else:</code>
+                                <br>
+                                <code> print('a es mayor')</code>
+                                <br>
+                                ¿Que resultado se obtendrá por pantalla?</p>
+                        <select class="slc-resp" size="3" id="resp3">
+                            <option value="Error de tabulación">Error de tabulación</option>
+                            <option value="a es menor">a es menor</option>
+                            <option value="'a es menor'">'a es menor'</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> -   <code>a=6</code> 
+                                <br>
+                                <code>if a<5:</code>
+                                <br>
+                                <code>print(‘a es menor que 5’)</code>
+                                <br>
+                                <code>elif a>5:</code>
+                                <br>
+                                <code>print(‘a es mayor que 5’)</code>
+                                <br>
+                                ¿Que resultado se obtendrá por pantalla?</p>
+                        <select class="slc-resp" size="3" id="resp4">
+                            <option value="'a es menor que 5'">'a es menor que 5'</option>
+                            <option value="Error">Error</option>
+                            <option value="'a es mayor que 5'">'a es mayor que 5'</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> - ¿El control de flujo else solo se ejecutara cuando ningún control anterior se cumpla?</p>
+                        <select class="slc-resp" size="2" id="resp5">
+                            <option value="verdadero">verdadero</option>
+                            <option value="falso">falso</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <button id="resp" class="submit" type="submit">Enviar</button>
+                    </div>
+                    
+                </form>
+                
+            </div>
+            
+        </div>
+        <script src="JS/resp.js" type="module"></script>
+        
+</body>
+
+</html>

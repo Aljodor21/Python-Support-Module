@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./STYLES/main.css'>
+</head>
+
+<body>
+    <div class="contenendor">
+        <div class="menu">
+            <div class="title">
+                <p>Python Support Module</p>
+            </div>
+            <div class="contenedorB">
+                <button onclick="window.location.href='listaTemas.html';" class="btn-submt">
+                    <p>Contenido</p>
+                </button>
+                <button onclick="window.location.href='progreso.html';" class="btn-submt">
+                    <p>Progreso</p>
+                </button>
+                <button onclick="window.location.href='python.html';" class="btn-submt">
+                    <p>Mas sobre python</p>
+                </button>
+            </div>
+            <div class="logout">
+                <button onclick="window.location.href='login.html';" class="btn-submt">
+                    <p>Cerrar sesión</p>
+                </button>
+            </div>
+        </div>
+        <div class="separador"></div>
+        <div class="contenido">
+            <div class="cont-ejerc">
+                <h2>Debes elegir las opciones correctas para continuar.</h2>
+                <form id="quiz-container" data-id="quiz1">
+                    <div class="contexto">
+                        <p>En las próximas secciones queremos que al finalizar puedas poner a prueba tus conocimientos y así puedas continuar con la siguiente fase.</p>
+                        
+                    </div>
+                    <div class="fragm">
+                        <p> - ¿Cómo puedo mostrar en pantalla el resultado de (2+2)?</p>
+                        <select class="slc-resp" size="3" id="resp1">
+                            <option value="2+2">2+2</option>
+                            <option value="print(2-2)">print(2-2)</option>
+                            <option value="print(2+2)">print(2+2)</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> - ¿Cómo puedo restarle 2 unidades enteras a 5?</p>
+                        <select class="slc-resp" size="3" id="resp2">
+                            <option value="print(5-2)">print(5-2)</option>
+                            <option value="5-2">5-2</option>
+                            <option value="print(2-5)">print(2-5)</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> - Cual es el resultado de la operacion 8 * 30</p>
+                        <select class="slc-resp" size="3" id="resp3">
+                            <option value="200">200</option>
+                            <option value="280">280</option>
+                            <option value="240">240</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> - Cual es el resultado de la operacion 2/2?</p>
+                        <select class="slc-resp" size="3" id="resp4">
+                            <option value="1.0">1.0</option>
+                            <option value="0.1">0.1</option>
+                            <option value="1">1</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> - ¿Qué función cumplen las matemáticas en la programación?</p>
+                        <select class="slc-resp" size="3" id="resp5">
+                            <option value="Nos sirve para restar dos números">Nos sirve para restar dos números</option>
+                            <option value="Facilita la resolución de problemas">Facilita la resolución de problemas</option>
+                            <option value="Facilita la creación de programas eficientes">Facilita la creación de programas eficientes</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <button id="resp" class="submit" type="submit">Enviar</button>
+                    </div>
+                    
+                </form>
+                
+            </div>
+            
+        </div>
+        
+        <script src="JS/resp.js" type="module"></script>
+</body>
+
+</html>

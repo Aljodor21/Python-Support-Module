@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./STYLES/main.css'>
+</head>
+
+<body>
+    <div class="contenendor">
+        <div class="menu">
+            <div class="title">
+                <p>Python Support Module</p>
+            </div>
+            <div class="contenedorB">
+                <button onclick="window.location.href='listaTemas.html';" class="btn-submt">
+                    <p>Contenido</p>
+                </button>
+                <button onclick="window.location.href='progreso.html';" class="btn-submt">
+                    <p>Progreso</p>
+                </button>
+                <button onclick="window.location.href='python.html';" class="btn-submt">
+                    <p>Mas sobre python</p>
+                </button>
+            </div>
+            <div class="logout">
+                <button onclick="window.location.href='login.html';" class="btn-submt">
+                    <p>Cerrar sesión</p>
+                </button>
+            </div>
+        </div>
+        <div class="separador"></div>
+        <div class="contenido">
+            <div class="cont-ejerc">
+                <h2>Debes elegir las opciones correctas para continuar.</h2>
+                <form id="quiz-container" data-id="quiz2">
+                    
+                    <div class="fragm">
+                        <p> - Teniendo en cuenta las reglas básicas para la creación de variables ¿Cúal sería la manera correcta de definir una variable?</p>
+                        <select class="slc-resp" size="3" id="resp1">
+                            <option value="2variable=1">2variable=1</option>
+                            <option value="var-iable=2">var-iable=2</option>
+                            <option value="variAble=2">variAble=2</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> - ¿Qué operador utilizamos para asignar los valores a nuestras variables?</p>
+                        <select class="slc-resp" size="3" id="resp2">
+                            <option value="/">/</option>
+                            <option value="**">**</option>
+                            <option value="=">=</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> - ¿El contenido de mis variables pueden cambiar a lo largo de mi programa?</p>
+                        <select class="slc-resp" size="2" id="resp3">
+                            <option value="verdadero">verdadero</option>
+                            <option value="falso">falso</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> - ¿Como definir una variable de tipo texto?</p>
+                        <select class="slc-resp" size="3" id="resp4">
+                            <option value="var='Hola soy un texto'">var='Hola soy un texto'</option>
+                            <option value="2var='Hola yo soy el texto'">2var='Hola yo soy el texto'</option>
+                            <option value="var=Soy el texto">var=Soy el texto</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> - ¿Como definir variables múltiples?</p>
+                        <select class="slc-resp" size="3" id="resp5">
+                            <option value="a,b,c=Texto,2,3">a,b,c=Texto,2,3</option>
+                            <option value="var,2var,var-3='Texto1','Texto2','Texto3'">var,2var,var-3='Texto1','Texto2','Texto3'</option>
+                            <option value="var1,var2,var3='Texto1','Texto2','Texto3'">var1,var2,var3='Texto1','Texto2','Texto3'</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <button id="resp" class="submit" type="submit">Enviar</button>
+                    </div>
+                    
+                </form>
+                
+            </div>
+            
+        </div>
+        <script src="JS/resp.js" type="module"></script>
+        
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./STYLES/main.css'>
+</head>
+
+<body>
+    <div class="contenendor">
+        <div class="menu">
+            <div class="title">
+                <p>Python Support Module</p>
+            </div>
+            <div class="contenedorB">
+                <button onclick="window.location.href='listaTemas.html';" class="btn-submt">
+                    <p>Contenido</p>
+                </button>
+                <button onclick="window.location.href='progreso.html';" class="btn-submt">
+                    <p>Progreso</p>
+                </button>
+                <button onclick="window.location.href='python.html';" class="btn-submt">
+                    <p>Mas sobre python</p>
+                </button>
+            </div>
+            <div class="logout">
+                <button onclick="window.location.href='login.html';" class="btn-submt">
+                    <p>Cerrar sesión</p>
+                </button>
+            </div>
+        </div>
+        <div class="separador"></div>
+        <div class="contenido">
+            <div class="cont-ejerc">
+                <h2>Debes elegir las opciones correctas para continuar.</h2>
+                <form id="quiz-container" data-id="quiz4">
+                    
+                    <div class="fragm">
+                        <p> - ¿Que opción no es un tipo de dato?</p>
+                        <select class="slc-resp" size="3" id="resp1">
+                            <option value="String">String</option>
+                            <option value="Solar">Solar</option>
+                            <option value="Entero">Entero</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> -   <code>a=1J</code> 
+                                <br>
+                                <code>print(a) </code>
+                                <br>
+                                ¿Que tipo de dato se obtendrá por pantalla?
+                        <select class="slc-resp" size="3" id="resp2">
+                            <option value="Número entero">Número entero</option>
+                            <option value="Número decimal">Número decimal</option>
+                            <option value="Número complejo">Número complejo</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> -   <code>a=15</code> 
+                                <br>
+                                <code>print(a) </code>
+                                <br>
+                                ¿Que tipo de dato se obtendrá por pantalla?</p>
+                        <select class="slc-resp" size="3" id="resp3">
+                            <option value="Número entero">Número entero</option>
+                            <option value="Número decimal">Número decimal</option>
+                            <option value="Número complejo">Número complejo</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> -   <code>a=3.14</code> 
+                                <br>
+                                <code>print(a) </code>
+                                <br>
+                                ¿Que tipo de dato se obtendrá por pantalla?</p>
+                        <select class="slc-resp" size="3" id="resp4">
+                            <option value="Número entero">Número entero</option>
+                            <option value="Número decimal">Número decimal</option>
+                            <option value="Número complejo">Número complejo</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> - ¿Como definir un dato tipo String?</p>
+                        <select class="slc-resp" size="3" id="resp5">
+                            <option value="Usando comillas">Usando comillas</option>
+                            <option value="Usando asterisco">Usando asterisco</option>
+                            <option value="Usando el signo de peso">Usando el signo de peso</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <button id="resp" class="submit" type="submit">Enviar</button>
+                    </div>
+                    
+                </form>
+                
+            </div>
+            
+        </div>
+        <script src="JS/resp.js" type="module"></script>
+        
+</body>
+
+</html>

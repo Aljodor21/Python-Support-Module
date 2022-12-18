@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='STYLES/main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div class="contenendor">
+        <div class="menu">
+            <div class="title">
+                <p>Python Support Module</p>
+            </div>
+            <div class="contenedorB">
+                <button onclick="window.location.href='progreso.html';" class="btn-submt">
+                    <p>Progreso</p>
+                </button>
+                <button onclick="window.location.href='listaTemas.html';" class="btn-submt">
+                    <p>Temáticas</p>
+                </button>
+                <button onclick="window.location.href='python.html';" class="btn-submt">
+                    <p>Mas sobre python</p>
+                </button>
+            </div>
+            <div class="logout">
+                <button onclick="window.location.href='login.html';" class="btn-submt">
+                    <p>Cerrar sesión</p>
+                </button>
+            </div>
+        </div>
+        <div class="separador"></div>
+        <div class="contenido">
+            <div class="cont-ejerc">
+                <h2>Organiza los fragmentos de códico en el orden correcto</h2>
+                <div class="listaEjerc" id="listaEjerc">
+                    <div class="fragm">
+                        <p>Fragment 1</p>
+                    </div>
+                    <div class="fragm">
+                        <p>Fragment 2</p>
+                    </div>
+                    <div class="fragm">
+                        <p>Fragment 3</p>
+                    </div>
+                    <div class="fragm">
+                        <p>Fragment 4</p>
+                    </div>
+                    <div class="fragm">
+                        <p>Fragment 5</p>
+                    </div>
+                    <div class="fragm">
+                        <p>Fragment 6</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contexto">
+                <h2>Contexto</h2>
+                <p>Se espera que ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus 
+                    dolore ut porro distinctio illo impedit itaque, vel, 
+                    totam sint corporis tenetur in reprehenderit officia earum maxime atque accusamus dolorum quas!</p>
+                <button class="btn-submt"><p>Enviar</p></button>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+        <script src="JS/ejercicio.js"></script>
+</body>
+
+</html>

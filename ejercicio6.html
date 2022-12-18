@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./STYLES/main.css'>
+</head>
+
+<body>
+    <div class="contenendor">
+        <div class="menu">
+            <div class="title">
+                <p>Python Support Module</p>
+            </div>
+            <div class="contenedorB">
+                <button onclick="window.location.href='listaTemas.html';" class="btn-submt">
+                    <p>Contenido</p>
+                </button>
+                <button onclick="window.location.href='progreso.html';" class="btn-submt">
+                    <p>Progreso</p>
+                </button>
+                <button onclick="window.location.href='python.html';" class="btn-submt">
+                    <p>Mas sobre python</p>
+                </button>
+            </div>
+            <div class="logout">
+                <button onclick="window.location.href='login.html';" class="btn-submt">
+                    <p>Cerrar sesión</p>
+                </button>
+            </div>
+        </div>
+        <div class="separador"></div>
+        <div class="contenido">
+            <div class="cont-ejerc">
+                <h2>Debes elegir las opciones correctas para continuar.</h2>
+                <form id="quiz-container" data-id="quiz6">
+                    
+                    <div class="fragm">
+                        <p> - ¿En python y otros lenguajes de programación el indice inicial de una lista es el 1?</p>
+                        <select class="slc-resp" size="2" id="resp1">
+                            <option value="verdadero">verdadero</option>
+                            <option value="falso">falso</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> -   <code>lista=[1,2,3,4]</code> 
+                                <br>
+                                <code>print(lista[0])</code>
+                                <br>
+                                ¿Que resultado se obtendrá por pantalla?</p>
+                        <select class="slc-resp" size="3" id="resp2">
+                            <option value="0">0</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> -   <code>lista=[1,2,3,4]</code> 
+                                <br>
+                                <code>lista.pop()</code>
+                                <br>
+                                <code>print(lista)</code>
+                                <br>
+                                ¿Que resultado se obtendrá por pantalla?</p>
+                        <select class="slc-resp" size="3" id="resp3">
+                            <option value="Se eliminó el indice final">Se eliminó el indice final</option>
+                            <option value="Se eliminaron los valores">Se eliminaron los valores</option>
+                            <option value="Se eliminó el indice inicial">Se eliminó el indice inicial</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> -   <code>lista=[1,2,3,4]</code> 
+                                <br>
+                                <code>lista.remove(2)</code>
+                                <br>
+                                <code>print(lista)</code>
+                                <br>
+                                ¿Que resultado se obtendrá por pantalla?</p>
+                        <select class="slc-resp" size="3" id="resp4">
+                            <option value="Se añadio un valor al inicio">Se añadio un valor al inicio</option>
+                            <option value="Elimino un valor especifico">Elimino un valor especifico</option>
+                            <option value="Se eliminaron los valores">Se eliminaron los valores</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> - ¿La función .len() me sirve para saber la longitud mi lista?</p>
+                        <select class="slc-resp" size="2" id="resp5">
+                            <option value="verdadero">verdadero</option>
+                            <option value="falso">falso</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <button id="resp" class="submit" type="submit">Enviar</button>
+                    </div>
+                    
+                </form>
+                
+            </div>
+            
+        </div>
+        <script src="JS/resp.js" type="module"></script>
+        
+</body>
+
+</html>

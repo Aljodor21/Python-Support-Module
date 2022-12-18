@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./STYLES/main.css'>
+</head>
+
+<body>
+    <div class="contenendor">
+        <div class="menu">
+            <div class="title">
+                <p>Python Support Module</p>
+            </div>
+            <div class="contenedorB">
+                <button onclick="window.location.href='listaTemas.html';" class="btn-submt">
+                    <p>Contenido</p>
+                </button>
+                <button onclick="window.location.href='progreso.html';" class="btn-submt">
+                    <p>Progreso</p>
+                </button>
+                <button onclick="window.location.href='python.html';" class="btn-submt">
+                    <p>Mas sobre python</p>
+                </button>
+            </div>
+            <div class="logout">
+                <button onclick="window.location.href='login.html';" class="btn-submt">
+                    <p>Cerrar sesión</p>
+                </button>
+            </div>
+        </div>
+        <div class="separador"></div>
+        <div class="contenido">
+            <div class="cont-ejerc">
+                <h2>Debes elegir las opciones correctas para continuar.</h2>
+                <form id="quiz-container" data-id="quiz9">
+                    
+                    <div class="fragm">
+                        <p> - ¿Un ciclo while incrementa de manera automatica?</p>
+                        <select class="slc-resp" size="2" id="resp1">
+                            <option value="verdadero">verdadero</option>
+                            <option value="falso">falso</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> - ¿Como se conoce la variable que se usa para incrementar un ciclo while?</p>
+                        <select class="slc-resp" size="3" id="resp2">
+                            <option value="Indice">Indice</option>
+                            <option value="Bandera">Bandera</option>
+                            <option value="Constante">Constante</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> -   <code>a=0</code> 
+                                <br>
+                                <code> while a<5: </code>
+                                <br>
+                                <code> print(a)</code>
+                                <br>
+                                <code> a+=1</code>
+                                <br>
+                                ¿Que resultado se obtendrá por pantalla?</p>
+                        <select class="slc-resp" size="3" id="resp3">
+                            <option value="1,2,3,4">1,2,3,4</option>
+                            <option value="0,1,2,3,4">0,1,2,3,4</option>
+                            <option value="0,1,2,3,4,5">0,1,2,3,4,5</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> -   <code>a=1</code> 
+                                <br>
+                                <code>while a<5:</code>
+                                <br>
+                                <code>print(a)</code>
+                                <br>
+                                <code>a+=1</code>
+                                <br>
+                                ¿Que resultado se obtendrá por pantalla?</p>
+                        <select class="slc-resp" size="3" id="resp4">
+                            <option value="1,2,3,4,5">1,2,3,4,5</option>
+                            <option value="0,1,2,3,4">0,1,2,3,4</option>
+                            <option value="1,2,3,4">1,2,3,4</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> - ¿El ciclo while se usa generalmente cuando no se conoce el numero de iteraciones necesarias?</p>
+                        <select class="slc-resp" size="2" id="resp5">
+                            <option value="verdadero">verdadero</option>
+                            <option value="falso">falso</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <button id="resp" class="submit" type="submit">Enviar</button>
+                    </div>
+                    
+                </form>
+                
+            </div>
+            
+        </div>
+        <script src="JS/resp.js" type="module"></script>
+        
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./STYLES/main.css'>
+</head>
+
+<body>
+    <div class="contenendor">
+        <div class="menu">
+            <div class="title">
+                <p>Python Support Module</p>
+            </div>
+            <div class="contenedorB">
+                <button onclick="window.location.href='listaTemas.html';" class="btn-submt">
+                    <p>Contenido</p>
+                </button>
+                <button onclick="window.location.href='progreso.html';" class="btn-submt">
+                    <p>Progreso</p>
+                </button>
+                <button onclick="window.location.href='python.html';" class="btn-submt">
+                    <p>Mas sobre python</p>
+                </button>
+            </div>
+            <div class="logout">
+                <button onclick="window.location.href='login.html';" class="btn-submt">
+                    <p>Cerrar sesión</p>
+                </button>
+            </div>
+        </div>
+        <div class="separador"></div>
+        <div class="contenido">
+            <div class="cont-ejerc">
+                <h2>Debes elegir las opciones correctas para continuar.</h2>
+                <form id="quiz-container" data-id="quiz10">
+                    
+                    <div class="fragm">
+                        <p> - ¿Un ciclo for incrementa de manera automatica?</p>
+                        <select class="slc-resp" size="2" id="resp1">
+                            <option value="verdadero">verdadero</option>
+                            <option value="falso">falso</option>
+                        </select class="slc-resp">
+                    </div>
+                    <div class="fragm">
+                        <p> - ¿Como se conoce la variable que se usa para saber cuantas veces se repite un ciclo for?</p>
+                        <select class="slc-resp" size="3" id="resp2">
+                            <option value="Indice">Indice</option>
+                            <option value="Bandera">Bandera</option>
+                            <option value="Iteracion">Iteracion</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> -   <code>a=['Hola','Mundo']</code> 
+                                <br>
+                                <code> for c in a: </code>
+                                <br>
+                                <code> print(c)</code>
+                                <br>
+                                ¿Que resultado se obtendrá por pantalla?</p>
+                        <select class="slc-resp" size="3" id="resp3">
+                            <option value="Holamundo">Holamundo</option>
+                            <option value="HolaMundo">HolaMundo</option>
+                            <option value="'Hola','Mundo'">'Hola','Mundo'</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> -   <code>a='Mundo'</code> 
+                                <br>
+                                <code>for c in a:</code>
+                                <br>
+                                <code>print(c)</code>
+                                <br>
+                                ¿Que resultado se obtendrá por pantalla?</p>
+                        <select class="slc-resp" size="3" id="resp4">
+                            <option value="M,u,n,d,o">M,u,n,d,o</option>
+                            <option value="m,u,n,d">m,u,n,d</option>
+                            <option value="c">c</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <p> - ¿El ciclo for se usa generalmente para iterar listas?</p>
+                        <select class="slc-resp" size="2" id="resp5">
+                            <option value="verdadero">verdadero</option>
+                            <option value="falso">falso</option>
+                        </select>
+                    </div>
+                    <div class="fragm">
+                        <button id="resp" class="submit" type="submit">Enviar</button>
+                    </div>
+                    
+                </form>
+                
+            </div>
+            
+        </div>
+        <script src="JS/resp.js" type="module"></script>
+        
+</body>
+
+</html>
